@@ -4,8 +4,6 @@
 // [1,1,1,2,10]
 
 function obtenerSuma(myArray){
-    const minimo = Math.min(...myArray);
-    const maximo = Math.max(...myArray);
-    return minimo + maximo;
+    return Math.min(...myArray) + Math.max(...myArray);
 }
 obtenerSuma([1,2,3,4,56,7,8,10])
